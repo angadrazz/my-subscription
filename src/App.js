@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  let subscriptions=[
+    {
+       id:"1",
+       date:(new Date('2021','03','23')),
+       title:"Monthly Subscription",
+       amount:"125.60"
+    },
+    {
+      id:"2",
+      date:(new Date('2020','06','28')),
+      title:"Annual Subscription",
+      amount:"1125.00"
+   },
+   {
+    id:"3",
+    date:(new Date('2021','09','05')),
+    title:"Quarterly Subscription",
+    amount:"425.50"
+ }
+]
+return (
+  
+)
 }
 
 export default App;
